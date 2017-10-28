@@ -1,0 +1,23 @@
+{
+  "name": "presci",
+  "version": "1.0.0",
+  "description": "A chrome extension that automates your creative workflow by exposing you to interests based off of web proximity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecjd/presci.git"
+  },
+  "author": "Jonathan Dixon <0x6a.dixon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alecjd/presci/issues"
+  },
+  "homepage": "https://github.com/alecjd/presci#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "1.7.9"
+  }
+}
