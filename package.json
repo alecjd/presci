@@ -2,7 +2,7 @@
   "name": "presci",
   "version": "1.0.0",
   "description": "On demand incident response and computer forensics built on AWS infrastructure",
-  "main": "index.js",
+  "main": "./src/app_main/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/alecjd/presci.git"
   },
-  "author": "Jonathan Dixon <mizziezcal@gmail.com>",
+  "author": "Jonathan Dixon <0x6a.dixon@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alecjd/presci/issues"
@@ -25,6 +25,6 @@
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
-    "electron": "1.7.9"
+    "electron": "^1.7.9"
   }
 }
