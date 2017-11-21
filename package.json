@@ -1,7 +1,7 @@
 {
   "name": "presci",
   "version": "1.0.0",
-  "description": "A chrome extension that automates your creative workflow by exposing you to interests based off of web proximity.",
+  "description": "On demand incident response and computer forensics built on AWS infrastructure",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/alecjd/presci.git"
   },
-  "author": "Jonathan Dixon <0x6a.dixon@gmail.com>",
+  "author": "Jonathan Dixon <mizziezcal@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alecjd/presci/issues"
   },
   "homepage": "https://github.com/alecjd/presci#readme",
-  "dependencies": {},
+  "dependencies": {
+    "aws-sdk": "^2.154.0"
+  },
   "devDependencies": {
     "electron": "1.7.9"
   }
