@@ -20,6 +20,7 @@
     "aws-sdk": "^2.154.0",
     "electron-debug": "^1.4.0",
     "electron-devtools-installer": "^2.2.1",
+    "node-go-require": "^1.0.45",
     "vue": "^2.5.8",
     "vue-electron": "^1.0.6",
     "vue-router": "^3.0.1"
