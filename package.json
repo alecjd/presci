@@ -18,6 +18,7 @@
   "homepage": "https://github.com/alecjd/presci#readme",
   "dependencies": {
     "aws-sdk": "^2.154.0",
+    "concise.css": "^4.1.2",
     "electron-debug": "^1.4.0",
     "electron-devtools-installer": "^2.2.1",
     "vue": "^2.5.8",
