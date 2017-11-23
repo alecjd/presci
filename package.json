@@ -2,7 +2,7 @@
   "name": "presci",
   "version": "1.0.0",
   "description": "On demand incident response and computer forensics built on AWS infrastructure",
-  "main": "./src/app_main/main.js",
+  "main": "./src/app/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
     "aws-sdk": "^2.154.0",
     "electron-debug": "^1.4.0",
     "electron-devtools-installer": "^2.2.1",
+    "gonode": "^0.1.2",
     "node-go-require": "^1.0.45",
     "vue": "^2.5.8",
     "vue-electron": "^1.0.6",

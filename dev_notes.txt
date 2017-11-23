@@ -1,4 +1,6 @@
-+ Backend Golang Infra
++ Backend Golang Workflow
 ++ NodeJS runs the files, so no need to create anything with Golang
-++ Move Golang code over to the nodejs app
+++ Commit standalone Go code first
+++ Pull repo into GOPATH, create nodejs_dev branch for each parser, checkout dev branch, make mods for gonode, then build the go code and import into node
+++ Move Go code over to the nodejs app
 ++ Use gulp as the build tool
