@@ -3,8 +3,8 @@ const electron = require('electron')
 const dialog = require('electron').dialog;
 const app = electron.app
 
-var showOpen = function () {
-    dialog.showOpenDialog({
+function openPrefetchFile () {
+    const prefetchFiles = dialog.showOpenDialog({
         properties: [
             'openFile'
         ],
@@ -17,6 +17,8 @@ var showOpen = function () {
             }
         ]
     })
+    if (!prefetchFiles) return
+    console.log(prefetchFiles[0])
 };
 
 const template = [
@@ -26,7 +28,7 @@ const template = [
             {
                 'label': 'Open File',
                 click () {
-                    showOpen();
+                    openPrefetchFile();
                 }
             }
         ]
