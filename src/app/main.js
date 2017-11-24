@@ -17,7 +17,7 @@ function createWindow () {
     slashes: true
   }))
 
-  // Open the DevTools.
+  // Open the DevTools (if neeeded)
   // win.webContents.openDevTools()
 
   // Emitted when the window is closed.
@@ -27,6 +27,8 @@ function createWindow () {
     // when you should delete the corresponding element.
     win = null
   })
+
+  require('./menus/mainmenu')
 }
 
 // This method will be called when Electron has finished
